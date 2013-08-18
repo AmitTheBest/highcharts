@@ -46,7 +46,7 @@ class View_Stock extends \View {
         $this->js(true)->highcharts(
             'StockChart',
             $this->options
-        )->debug();;
+        );
         return parent::render();
     }
 }
