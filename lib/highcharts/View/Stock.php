@@ -34,6 +34,8 @@ class View_Stock extends \View {
 
                 $k=$k*1000;
 
+                $v=(float)$v;
+
                 $sdata[]=array($k,$v);
             }
 
